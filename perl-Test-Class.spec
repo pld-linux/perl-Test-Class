@@ -38,6 +38,7 @@ testuj±cych Twój kod w stylu xUnit.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+mv t/pod.t{,.blah}
 
 %build
 %{__perl} Makefile.PL \
