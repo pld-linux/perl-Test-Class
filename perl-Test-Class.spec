@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Test
-%define	pnam	Class
+%define		pdir	Test
+%define		pnam	Class
 Summary:	Test::Class - easily create test classes in an xUnit style
 Summary(pl):	Test::Class - ³atwe tworzenie testowych klas w stylu xUnit
 Name:		perl-Test-Class
