@@ -8,7 +8,7 @@ Summary:	Test::Class - Easily create test classes in an xUnit style
 Summary(pl):	Test::Class - £atwe tworzenie testowych klas w stylu xUnit
 Name:		perl-Test-Class
 Version:	0.03
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
