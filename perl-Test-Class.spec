@@ -4,8 +4,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Class
-Summary:	Test::Class - Easily create test classes in an xUnit style
-Summary(pl):	Test::Class - £atwe tworzenie testowych klas w stylu xUnit
+Summary:	Test::Class - easily create test classes in an xUnit style
+Summary(pl):	Test::Class - ³atwe tworzenie testowych klas w stylu xUnit
 Name:		perl-Test-Class
 Version:	0.03
 Release:	2
