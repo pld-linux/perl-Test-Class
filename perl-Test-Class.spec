@@ -26,6 +26,7 @@ BuildRequires:	perl-Test-Builder-Tester >= 0.09
 BuildRequires:	perl-Test-Differences >= 0.43
 BuildRequires:	perl-Test-Exception >= 0.10
 %endif
+Requires:	perl(IO::File) >= 1.14
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
