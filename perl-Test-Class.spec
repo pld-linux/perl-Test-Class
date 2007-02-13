@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Class
 Summary:	Test::Class - easily create test classes in an xUnit style
-Summary(pl.UTF-8):   Test::Class - łatwe tworzenie testowych klas w stylu xUnit
+Summary(pl.UTF-8):	Test::Class - łatwe tworzenie testowych klas w stylu xUnit
 Name:		perl-Test-Class
 Version:	0.20
 Release:	1
