@@ -9,7 +9,7 @@ Summary:	Test::Class - easily create test classes in an xUnit style
 Summary(pl.UTF-8):	Test::Class - łatwe tworzenie testowych klas w stylu xUnit
 Name:		perl-Test-Class
 Version:	0.20
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -22,7 +22,7 @@ BuildRequires:	perl-Attribute-Handlers >= 0.77
 BuildRequires:	perl-Class-ISA >= 0.32
 BuildRequires:	perl-Devel-Symdump
 BuildRequires:	perl-Test-Simple >= 0.46
-BuildRequires:	perl-Test-Builder-Tester >= 0.09
+BuildRequires:	perl-Test-Builder-Tester >= 1.04
 BuildRequires:	perl-Test-Differences >= 0.43
 BuildRequires:	perl-Test-Exception >= 0.10
 %endif
