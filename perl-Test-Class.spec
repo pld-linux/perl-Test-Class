@@ -8,13 +8,13 @@
 Summary:	Test::Class - easily create test classes in an xUnit style
 Summary(pl.UTF-8):	Test::Class - łatwe tworzenie testowych klas w stylu xUnit
 Name:		perl-Test-Class
-Version:	0.36
+Version:	0.50
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9d33a80215754b4e5234e9116088f403
+# Source0-md5:	4cc3aaad36b72f424ed90122701d2451
 URL:		http://search.cpan.org/dist/Test-Class/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -60,6 +60,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*.pm
-%{perl_vendorlib}/%{pdir}/%{pnam}
-%{_mandir}/man3/*
+%{perl_vendorlib}/Test/Class.pm
+%{perl_vendorlib}/Test/Class
+%{_mandir}/man3/Test::Class.3pm*
+%{_mandir}/man3/Test::Class::*.3pm*
